@@ -1,0 +1,243 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    height: 80px;
+}
+h1{
+    padding-left: 75px;
+}
+#sec{
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+.fix1{
+    background-color: rgb(70, 155, 90);
+    color: white; 
+}
+#sec:hover{
+    background-color: rgb(70, 155, 90);
+    color: white;
+}
+.sections{
+    display:flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+    background-color: white;
+    width: 400px;
+    padding-right: 110px;
+}
+#home{
+    /* margin-top: 200px;
+    margin-bottom: 350px; */
+    background-color: rgb(240, 255, 244);
+    text-align: center;
+    line-height: 450px;
+    height: 615px;
+    width: 100%;
+}
+#xxx{
+    font-size: 3em;
+    padding-left: 0px;
+    color: black;
+    height: 10px;
+}
+#tech{
+    padding: 50px;
+    padding-left: 700px;
+    font-size: larger;
+    align-content: baseline;
+}
+#hd{
+    font-size: 3em;
+}
+fieldset{
+    margin-bottom: 100px;
+    /* padding: 50px; */
+    border: transparent;
+    background-color: rgb(5, 151, 102);
+    color: white;
+}
+#fdt1{
+    padding-left: 395px; 
+    font-size:small;
+}
+#fdt{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 100px;
+    margin-top: 50px;
+    text-align: start;
+}
+fieldset p{
+    font-size: medium;
+}
+#s{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 150px;
+    border-radius: 10px;
+    border:none;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0.1px 0.1px 4px rgb(199, 197, 197);
+}
+#s:hover{
+    border: solid;
+    border-width: 0.1px;
+    border-color: rgb(202, 198, 198);
+}
+#pro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p1{
+    background-image: url("Elements/hostel.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.p1 h2{
+    color: white;
+    font-size: 45px;
+    background-color: rgba(0, 0, 0, 0.183);
+    width: fit-content;
+    padding: 100px;
+    padding-right: 200px;
+    height: 140px;
+    line-height: 0px;
+}
+.p2{
+    background-image: url("Elements/e-com.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.p2 h2{
+    padding: 100px;
+    padding-top: 350px;
+    color: white;
+    font-size: 50px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.p3{
+    background-image: url("Elements/puzz.jpg");
+}
+.p3 h2{
+    color: white;
+    font-size: 50px;
+    width: fit-content;
+}
+#up{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 8px;
+}
+#last{
+    /* background-color: rgba(19, 65, 30, 0.998); */
+    background-color: #003e00;
+    text-decoration: none;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+#loc{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: small;
+}
+#loc i{
+    padding-right: 8px;
+}
+#call{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: small;
+}
+#call i{
+    padding-right: 6px;
+}
+#mail{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: small;
+}
+#mail i{
+    padding-right: 6px;
+}
+#down{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+
+}
+#down i{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+hr{
+    width: 500px;
+}
+#copy{
+    /* align-items: center; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 15px;
+    background-color: #001e00;
+    color: white;
+    font-size: xx-small;
+    padding: 1px;
+}
+#c{
+    line-height: 15px;
+}
+
+@media  screen and (max-width: 992px) {
+    #s{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        padding: 150px;
+        border-radius: 10px;
+        border:none;
+        border-color: rgb(255, 255, 255);
+        box-shadow: 0.1px 0.1px 4px rgb(199, 197, 197);
+    }
+    fieldset p{
+    font-size: xx-small;
+    }
+    #fdt1{
+    padding-left: 480px; 
+    font-size:0.1em;
+    }
+    .p2 h2{
+        padding-top: 360px;
+        font-size: 35px;
+    }
+}

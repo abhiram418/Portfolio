@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/1a924a6099.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+      </style>
+    <!-- <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:'Roboto Condensed', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .heading{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 8px;
+            height: 80px;
+        }
+        h1{
+            padding-left: 75px;
+        }
+        #sec{
+            padding: 6px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 15px;
+        }
+        .fix1{
+            background-color: rgb(70, 155, 90);
+            color: white; 
+        }
+        #sec:hover{
+            background-color: rgb(70, 155, 90);
+            color: white;
+        }
+        .sections{
+            display:flex;
+            align-items: center;
+            padding: 12px;
+            justify-content: space-between;
+            background-color: white;
+            width: 400px;
+            padding-right: 110px;
+        }
+        #home{
+            /* margin-top: 200px;
+            margin-bottom: 350px; */
+            background-color: rgb(240, 255, 244);
+            text-align: center;
+            line-height: 450px;
+            height: 615px;
+            width: 100%;
+        }
+        #xxx{
+            font-size: 3em;
+            padding-left: 0px;
+            color: black;
+            height: 10px;
+        }
+        #tech{
+            padding: 50px;
+            padding-left: 700px;
+            font-size: larger;
+            align-content: baseline;
+        }
+        #hd{
+            font-size: 3em;
+        }
+        fieldset{
+            margin-bottom: 100px;
+            /* padding: 50px; */
+            border: transparent;
+            background-color: rgb(5, 151, 102);
+            color: white;
+        }
+        #fdt1{
+            padding-left: 395px; 
+            font-size:small;
+        }
+        #fdt{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin: 100px;
+            margin-top: 50px;
+            text-align: start;
+        }
+        fieldset p{
+            font-size: medium;
+        }
+        #s{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            padding: 150px;
+            border-radius: 10px;
+            border:none;
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0.1px 0.1px 4px rgb(199, 197, 197);
+        }
+        #s:hover{
+            border: solid;
+            border-width: 0.1px;
+            border-color: rgb(202, 198, 198);
+        }
+        #pro{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .p1{
+            background-image: url("Elements/hostel.jpg");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .p1 h2{
+            color: white;
+            font-size: 45px;
+            background-color: rgba(0, 0, 0, 0.183);
+            width: fit-content;
+            padding: 100px;
+            padding-right: 200px;
+            height: 140px;
+            line-height: 0px;
+        }
+        .p2{
+            background-image: url("Elements/e-com.jpg");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .p2 h2{
+            padding: 100px;
+            padding-top: 350px;
+            color: white;
+            font-size: 50px;
+            width: fit-content;
+            background-color: rgba(0, 0, 0, 0.281);
+        }
+        .p3{
+            background-image: url("Elements/puzz.jpg");
+        }
+        .p3 h2{
+            color: white;
+            font-size: 50px;
+            width: fit-content;
+        }
+        #up{
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            padding-top: 8px;
+        }
+        #last{
+            /* background-color: rgba(19, 65, 30, 0.998); */
+            background-color: #003e00;
+            text-decoration: none;
+            color: white;
+            height: 100px;
+            width: 100%;
+        }
+        #loc{
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            font-size: small;
+        }
+        #loc i{
+            padding-right: 8px;
+        }
+        #call{
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            font-size: small;
+        }
+        #call i{
+            padding-right: 6px;
+        }
+        #mail{
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            font-size: small;
+        }
+        #mail i{
+            padding-right: 6px;
+        }
+        #down{
+            display: flex;
+            align-content: center;
+            justify-content:center;
+
+        }
+        #down i{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        hr{
+            width: 500px;
+        }
+        #copy{
+            /* align-items: center; */
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            height: 15px;
+            background-color: #001e00;
+            color: white;
+            font-size: xx-small;
+            padding: 1px;
+        }
+        #c{
+            line-height: 15px;
+        }
+
+        @media  screen and (max-width: 992px) {
+            #s{
+                width: 10px;
+                height: 10px;
+                background-color: white;
+                padding: 150px;
+                border-radius: 10px;
+                border:none;
+                border-color: rgb(255, 255, 255);
+                box-shadow: 0.1px 0.1px 4px rgb(199, 197, 197);
+            }
+            fieldset p{
+            font-size: xx-small;
+            }
+            #fdt1{
+            padding-left: 480px; 
+            font-size:0.1em;
+            }
+            .p2 h2{
+                padding-top: 360px;
+                font-size: 35px;
+            }
+        }
+    </style> -->
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="heading">
+        <div id="name">
+            <h1>ABHIRAM</h1>
+        </div>
+        <div class="sections">
+            <a id="h" href=""><div id="sec" class="fix1">Home</div></a>
+            <a id="h" href="#abo"><div id="sec">about</div></a>
+            <a id="h" href="#pro"><div id="sec">projects</div></a>
+            <a id="h" href="#last"><div id="sec">contact</div></a>
+        </div>
+
+    </div>
+
+
+
+    <div id="home">
+        <center>
+            <h1 id="xxx">
+                Budding Software Developer
+            </h1>
+            <div id="tech">
+                <a href="https://flutter.dev/" target="_blank"><img src="Elements/tech1.png" alt="" style="width: 16px;"></a>
+                <a href="https://html.spec.whatwg.org/multipage/" target="_blank"><i class="fa-brands fa-html5"></i></a>
+                <a href="https://www.w3.org/TR/CSS/#css" target="_blank"><i class="fa-brands fa-css3-alt"></i></a>
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><i class="fa-brands fa-square-js"></i></a>
+                <a href="https://wordpress.org/" target="_blank"><i class="fa-brands fa-wordpress"></i></a>
+            </div>
+        </center>
+    </div>
+
+
+
+    <center>
+        <fieldset id="abo">
+            <br>
+            <br>
+            <h1 id="hd">
+                Abhiram
+            </h1>
+            <p id="fdt1">- Budding Software Developer</p>
+            <p id="fdt">
+                I am Abhiram, a 4th year - CSE from - B V Raju Institute of Technology. My goal is to secure an engaging internship position in the field of engineering. 
+                I am eager to apply the knowledge and skills I have acquired through my studies and certifications towards gaining practical experience.
+                <br>
+                <br>
+                With a strong passion for engineering and a solid foundation in programming, data structures, algorithms, and other relevant skills, I am eager to gain hands-on work experience.
+                As a driven and ambitious individual, I have actively pursued opportunities to expand my knowledge and skills in the field of engineering. I have completed various certifications, including Programming, Data Structures and Algorithms Using Python from NPTEL, Soft Skills from NPTEL, and Flutter Development Bootcamp with Dart from Udemy. These certifications have not only equipped me with technical proficiency but have also honed my problem-solving abilities and fostered a strong work ethic.
+                <br>
+                <br>
+                In addition to my certifications, I have undertaken several noteworthy projects that have allowed me to apply my skills and showcase my potential. One such project is the development of a Hostel App at BVRIT, where I demonstrated my ability to design and implement an efficient and user-friendly application. Furthermore, I successfully created a Puzzle Website with a intention in mind to Create a user-friendly and responsive website with a puzzle for users to solve. My participation and recognition as a Finalist in the VJ Hackathon 2021 National Level Hackathon further exemplify my dedication and aptitude for problem-solving in a competitive environment.
+                <br>
+                <br>
+                Moreover, I possess a diverse linguistic background, being fluent in English, Telugu, Tamil, and Hindi. This language proficiency enables me to communicate effectively with individuals from various cultural backgrounds and enhances my adaptability in diverse work environments. Furthermore, my proficiency in programming languages such as Java, Python, Flutter,  HTML, CSS, JavaScript, WordPress and I am familiar with various other technologies which empowers me to tackle complex engineering challenges and develop innovative solutions.
+                <br>
+                <br>
+
+            </p>
+        </fieldset>
+    </center>
+
+
+
+     <div id="pro">
+        <a href="#pro">
+            <div id="s" class="p1">
+                <h2>
+                    Hostel-App
+                </h2>
+            </div>
+        </a>
+        <a href="#pro"><div id="s" class="p2">
+            <h2>
+                <b>E-commerce</b>
+            </h2>
+        </div></a>
+        <a href="https://e-litmus.vercel.app/" target="_blank"><div id="s" class="p3">
+            <h2>
+                <b>Puzzle Website</b>
+            </h2>
+        </div></a>
+     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <center>
+        <div id="last">
+            <div id="up">
+                <div id="loc">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a style="color: white;" href="https://goo.gl/maps/cNLXbiz3CSwWxvsTA" target="_blank">Hydrebad</a>
+                </div>
+                <div id="call">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>7416898456</p>
+                </div>
+                <div id="mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a style="color: white;" href="mailto:abhiram.ch418@gmail.com" target="_blank">abhiram.ch418@gmail.com</a>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <div id="down">
+                <a href="https://github.com/abhiram418" style="color: white;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://drive.google.com/file/d/1bpP0VbaOJNUFvCPVuuiCOoTBMZmiwv2-/view?usp=sharing" target="_blank" style="color: white;" download><i class="fa-solid fa-file"></i></a>
+                <a href="https://www.linkedin.com/in/chintapatla-abhiram/" style="color: white;" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </center>
+    <center>
+        <div id="copy">
+            <p id="c">CopyRights</p>&nbsp;
+            <i id="c" class="fa-regular fa-copyright"></i>&nbsp;
+            <p id="c">2023, All Rights Reserved.</p>
+        </div>
+    </center>
+</body>
+</html>
