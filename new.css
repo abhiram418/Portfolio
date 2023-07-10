@@ -115,7 +115,7 @@ fieldset p{
     white-space: nowrap;
     overflow: hidden;
 }
-.p1 h2{
+/* .p1 h2{
     color: white;
     font-size: 45px;
     background-color: rgba(0, 0, 0, 0.183);
@@ -124,6 +124,14 @@ fieldset p{
     padding-right: 200px;
     height: 140px;
     line-height: 0px;
+} */
+.p1 h2{
+    padding: 100px;
+    padding-top: 350px;
+    color: white;
+    font-size: 50px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.281);
 }
 .p2{
     background-image: url("Elements/e-com.jpg");
@@ -143,11 +151,19 @@ fieldset p{
 }
 .p3{
     background-image: url("Elements/puzz.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .p3 h2{
+    padding: 100px;
+    padding-top: 350px;
     color: white;
     font-size: 50px;
     width: fit-content;
+    background-color: rgba(0, 0, 0, 0.281);
 }
 #up{
     display: flex;
