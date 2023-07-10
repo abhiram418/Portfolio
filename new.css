@@ -252,7 +252,15 @@ hr{
     padding-left: 480px; 
     font-size:0.1em;
     }
+    .p1 h2{
+        padding-top: 360px;
+        font-size: 35px;
+    }
     .p2 h2{
+        padding-top: 360px;
+        font-size: 35px;
+    }
+    .p3 h2{
         padding-top: 360px;
         font-size: 35px;
     }
